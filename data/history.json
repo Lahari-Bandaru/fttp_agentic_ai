@@ -1,0 +1,26 @@
+[
+    {
+        "input": {
+            "pincode": 500081,
+            "location_type": "Urban",
+            "distance_km": 4.5,
+            "terrain_type": "High",
+            "infra_type": "Underground",
+            "base_material_cost": 6000,
+            "labor_rate_factor": 1.2
+        },
+        "estimated_cost": 25373.159780000005
+    },
+    {
+        "input": {
+            "pincode": 500081,
+            "location_type": "Urban",
+            "distance_km": 4.5,
+            "terrain_type": "High",
+            "infra_type": "Underground",
+            "base_material_cost": 6000,
+            "labor_rate_factor": 1.2
+        },
+        "estimated_cost": 25373.159780000005
+    }
+]

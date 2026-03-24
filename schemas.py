@@ -9,8 +9,35 @@ class CostRequest(BaseModel):
     labor_rate_factor: float = 1.2
     pincode: int
 
+from pydantic import BaseModel
 
 class CostResponse(BaseModel):
     estimated_cost: float
+    material_cost: float
+    labor_cost: float
+    distance_cost: float
+    risk_adjustment: float
     risk_score: float
     explanation: str
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+# class CostResponse(BaseModel):
+#     estimated_cost: float
+#     risk_score: float
+#     explanation: str

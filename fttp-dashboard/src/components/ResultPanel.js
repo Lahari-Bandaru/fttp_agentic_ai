@@ -11,7 +11,14 @@ function ResultPanel({ result }) {
 
       <p><b>Estimated Cost:</b> {result.estimated_cost}</p>
 
-      <p><b>Risk Score:</b> {result.risk_score}</p>
+      
+
+      <p><b>Material Cost:</b> {result.material_cost}</p>
+<p><b>Labor Cost:</b> {result.labor_cost}</p>
+<p><b>Distance Cost:</b> {result.distance_cost}</p>
+<p><b>Risk Adjustment:</b> {result.risk_adjustment}</p>
+
+<p><b>Risk Score:</b> {result.risk_score}</p>
 
       <p><b>Explanation:</b> {result.explanation}</p>
 

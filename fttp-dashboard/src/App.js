@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import InputForm from "./components/InputForm";
 import ResultPanel from "./components/ResultPanel";
 import CostChart from "./components/CostChart";
+import HistoryPanel from "./components/HistoryPanel";
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <ResultPanel result={result} />
 
       <CostChart result={result} />
+
+      <HistoryPanel />
 
     </div>
   );

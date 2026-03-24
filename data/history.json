@@ -1,26 +1,39 @@
 [
-    {
-        "input": {
-            "pincode": 500081,
-            "location_type": "Urban",
-            "distance_km": 4.5,
-            "terrain_type": "High",
-            "infra_type": "Underground",
-            "base_material_cost": 6000,
-            "labor_rate_factor": 1.2
-        },
-        "estimated_cost": 25373.159780000005
+  {
+    "input": {
+      "pincode": 500081,
+      "location_type": "Urban",
+      "distance_km": 4.5,
+      "terrain_type": "High",
+      "infra_type": "Underground",
+      "base_material_cost": 6000,
+      "labor_rate_factor": 1.2
     },
-    {
-        "input": {
-            "pincode": 500081,
-            "location_type": "Urban",
-            "distance_km": 4.5,
-            "terrain_type": "High",
-            "infra_type": "Underground",
-            "base_material_cost": 6000,
-            "labor_rate_factor": 1.2
-        },
-        "estimated_cost": 25373.159780000005
-    }
+    "estimated_cost": 25373.159780000005
+  },
+  {
+    "input": {
+      "pincode": 500081,
+      "location_type": "Urban",
+      "distance_km": 4.5,
+      "terrain_type": "High",
+      "infra_type": "Underground",
+      "base_material_cost": 6000,
+      "labor_rate_factor": 1.2
+    },
+    "estimated_cost": 25373.159780000005
+  },
+  {
+    "input": {
+      "location_type": "Urban",
+      "distance_km": 3.5,
+      "terrain_type": "Low",
+      "infra_type": "Aerial",
+      "base_material_cost": 5000.0,
+      "labor_rate_factor": 1.2,
+      "pincode": 500072
+    },
+    "estimated_cost": 13964.100699999994,
+    "risk_score": 0.1
+  }
 ]

@@ -2,6 +2,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 from schemas import CostRequest, CostResponse
 from pipeline.main_pipeline import estimate_cost
+import json 
 
 app = FastAPI()
 
@@ -22,6 +23,17 @@ app.add_middleware(
 #     description="Agentic AI system for FTTP deployment costing",
 #     version="1.0"
 # )
+
+
+
+
+@app.get("/history")
+def get_history():
+
+    with open("data/history.json","r") as f:
+        history = json.load(f)
+
+    return history
 
 @app.get("/")
 def home():
